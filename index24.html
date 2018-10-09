@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> JS - 4 Task1</title>
+</head>	
+<body>
+<script>
+ var a = prompt ('Введите значение a');
+ var b = prompt ('Введите значение b');
+ if ((a*b) <0) {
+ alert ('корень из отрицательного числа не считается')
+ }
+ else {
+ var result = (isNaN(a) || isNaN(b) || a==' ' || b==' ') ? 'не правильное число': 
+ (Math.sqrt(a*b)<4) ? 'Мало': 'Много';
+ alert (result);
+ }
+</script>
+</body>
+</html>
