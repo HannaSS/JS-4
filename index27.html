@@ -5,9 +5,9 @@
 </head>	
 <body>
 <script>
- var a = Number (prompt ('Введите значение a'));
- var b = Number (prompt ('Введите значение b'));
- var result = (isNaN(a) || isNaN(b) || a==' ' || b==' ') ? 'не правильное число': 
+ var a = parseFloat (prompt ('Введите значение a'));
+ var b = parseFloat (prompt ('Введите значение b'));
+ var result = (isNaN(a) || isNaN(b)) ? 'не правильное число': 
  (a+a)==b ? 'значения равны' : 'значения не равны';
  alert (result);
 </script>
